@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="14777" started-at="2020-07-06T03:37:48Z" finished-at="2020-07-06T03:38:03Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Test" duration-ms="14777" started-at="2020-07-06T03:37:48Z" finished-at="2020-07-06T03:38:03Z">
+      <class name="com.testRunner.TestRunnerTestNG">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="setUpClass" is-config="true" duration-ms="236" started-at="2020-07-06T09:07:48Z" finished-at="2020-07-06T09:07:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="runScenario" duration-ms="339" started-at="2020-07-06T09:07:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-06T09:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to test the final booking page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the Adactin Web Application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at com.utilityMethods.UtilityClass.implicitWait(UtilityClass.java:245)
+	at com.stepDefinition.Hooks.ticketGeneration(Hooks.java:21)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at cucumber.runtime.Utils$1.call(Utils.java:26)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:20)
+	at cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:65)
+	at cucumber.runner.HookDefinitionMatch.runStep(HookDefinitionMatch.java:16)
+	at cucumber.runner.TestStep.executeStep(TestStep.java:65)
+	at cucumber.runner.TestStep.run(TestStep.java:50)
+	at cucumber.runner.TestCase.run(TestCase.java:42)
+	at cucumber.runner.Runner.runPickle(Runner.java:50)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:79)
+	at cucumber.api.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:24)
+	at cucumber.api.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="runScenario" duration-ms="14248" started-at="2020-07-06T09:07:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-06T09:08:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["To Test and Verify the hotel booking functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the Adactin Web Application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="runScenario" duration-ms="372" started-at="2020-07-06T09:07:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-06T09:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to confirm the details in the Prebook page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the Adactin Web Application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at com.sun.proxy.$Proxy20.get(Unknown Source)
+	at com.stepDefinition.StepDefinition.user_has_to_click_the_select_button(StepDefinition.java:82)
+	at ✽.User has to click the select button "User clicked the select button"(file:src/test/resources/Feature1.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="FAIL" signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="runScenario" duration-ms="370" started-at="2020-07-06T09:07:48Z" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2020-07-06T09:07:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User has to test the Search Hotel functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["To Test the Adactin Web Application"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElements(DefaultElementLocator.java:85)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementListHandler.invoke(LocatingElementListHandler.java:36)
+	at com.sun.proxy.$Proxy20.get(Unknown Source)
+	at com.stepDefinition.StepDefinition.user_has_to_feed_the_location(StepDefinition.java:42)
+	at ✽.User has to feed the location "London"(file:src/test/resources/Feature1.feature:16)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.testRunner.TestRunnerTestNG@5cb9f472]" name="tearDownClass" is-config="true" duration-ms="189" started-at="2020-07-06T09:08:02Z" finished-at="2020-07-06T09:08:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.testRunner.TestRunnerTestNG -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
